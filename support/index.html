@@ -18,13 +18,14 @@
     .card { margin-top:18px; padding:18px 20px; border:1px solid var(--line); border-radius:12px; background:#fafcff; }
     a { color:#075bc2; text-underline-offset:3px; } footer { padding-top:18px; padding-bottom:24px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
     @media(max-width:600px){ main{width:100%;margin:0;border:0;border-radius:0;box-shadow:none} header,article,footer{padding-left:24px;padding-right:24px} }
-  </style>
+  nav{padding:16px 24px 0} article+article{border-top:1px solid #e6eaf0} </style>
 </head>
 <body><main>
   <header><div class="brand">工程快测</div><h1>帮助与反馈</h1><p>现场辅助测量、复核与资料整理</p></header>
-  <article>
+  <nav aria-label="Languages"><a href="#zh-CN">简体中文</a> · <a href="#en" lang="en">English</a> · <a href="#ms" lang="ms">Bahasa Melayu</a></nav>
+  <article id="zh-CN">
     <h2>设备要求</h2>
-    <p>房间工程量与平面裂缝扫描需要支持 LiDAR 与 ARKit 的 iPhone 或 iPad。非 LiDAR 设备会显示设备不支持说明，无法进入扫描功能。</p>
+    <p>室内工程量扫描与建筑完损性记录的现场扫描需要支持 LiDAR 且运行 iOS 或 iPadOS 18 及以上版本的 iPhone 或 iPad。非 LiDAR 设备会显示设备不支持说明，无法进入扫描功能。</p>
     <h2>常见问题</h2>
     <div class="card"><strong>为什么无法开始扫描？</strong><p>请确认设备支持 LiDAR，并在系统设置中允许工程快测使用相机。位置权限为可选，不影响核心扫描。</p></div>
     <div class="card"><strong>数据保存在哪里？</strong><p>项目、照片、模型与导出成果默认保存在设备本机。删除项目前请先导出需要留存的文件。</p></div>
@@ -34,6 +35,20 @@
     <p>请提供设备型号、iOS 版本、问题发生页面、复现步骤和必要截图。请勿在邮件中发送不必要的客户个人信息、精确地址或未脱敏现场资料。</p>
     <p>支持邮箱：<a href="mailto:Ldeguo2026@outlook.com">Ldeguo2026@outlook.com</a></p>
     <p><a href="../">查看隐私政策</a></p>
+  </article>
+  <article id="en" lang="en">
+    <h2>Help and support</h2>
+    <p>The current app interface is in Simplified Chinese. On-site scanning requires a LiDAR-equipped iPhone or iPad with iOS or iPadOS 18 or later. Enable camera access for scanning. Location access is optional and addresses can be entered manually.</p>
+    <p>Use the home screen to open Indoor Quantity Scanning (室内工程量扫描) or Building Condition Records (建筑完损性记录). Projects are stored on the device by default. Use the export button and system share sheet to choose where to save your files. Measurements and report drafts should be checked on site before use.</p>
+    <p>Go to Settings → Subscriptions &amp; Purchases (订阅与购买) to view plans or restore purchases. The public App Store version includes 14 days of full access after verified first acquisition. The evaluation requires no subscription and does not charge automatically.</p>
+    <p>For help, email <a href="mailto:Ldeguo2026@outlook.com">Ldeguo2026@outlook.com</a> with your device model, system version and steps to reproduce the issue. Remove personal and client information from screenshots. <a href="../#en">Privacy notice</a></p>
+  </article>
+  <article id="ms" lang="ms">
+    <h2>Bantuan dan sokongan</h2>
+    <p>Antara muka aplikasi semasa menggunakan bahasa Cina Ringkas. Pengimbasan di tapak memerlukan iPhone atau iPad dengan LiDAR serta iOS atau iPadOS 18 atau lebih baharu. Benarkan akses kamera untuk mengimbas. Akses lokasi adalah pilihan dan alamat boleh dimasukkan secara manual.</p>
+    <p>Buka Pengimbasan Kuantiti Dalaman (室内工程量扫描) atau Rekod Keadaan Bangunan (建筑完损性记录) dari skrin utama. Projek disimpan pada peranti secara lalai. Gunakan butang eksport dan menu perkongsian sistem untuk memilih lokasi simpanan. Semak ukuran dan draf laporan di tapak sebelum digunakan.</p>
+    <p>Buka Tetapan → Langganan dan Pembelian (订阅与购买) untuk melihat pelan atau memulihkan pembelian. Versi awam App Store menyediakan akses penuh selama 14 hari selepas perolehan pertama disahkan. Tempoh percubaan tidak memerlukan langganan dan tidak mengenakan caj secara automatik.</p>
+    <p>Untuk bantuan, e-mel <a href="mailto:Ldeguo2026@outlook.com">Ldeguo2026@outlook.com</a> dengan model peranti, versi sistem dan langkah untuk mengulangi masalah. Padamkan maklumat peribadi dan pelanggan daripada tangkapan skrin. <a href="../#ms">Notis privasi</a></p>
   </article>
   <footer>工程快测 · 帮助与反馈</footer>
 </main></body></html>
